@@ -1,5 +1,4 @@
 package com.example.demo.controller;
 
-public class UserController {
-
+public class AdminController {
 }
