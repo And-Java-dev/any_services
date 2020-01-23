@@ -40,6 +40,8 @@ public class User {
     private Gender gender;
     @Column(name = "phone_number")
     private String phoneNumber;
+    @Column
+    private boolean isEnable;
 
     @ManyToMany
     private List<Service> services;
